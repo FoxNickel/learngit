@@ -36,3 +36,4 @@ git checkout -b new_branch_name:相当于git branch new_branch_name,git checkout
 git merge branch_name：合并分支到master
 git branch -d branch_name:删除该分支
 git show commit_id：将提交与所在分支进行对比（比较当前commit与父commit的差异）
+cat：查看当前文件内容

@@ -10,9 +10,7 @@ mv a b:移动文件从a到b
 
 
 
-
-
-git commands：
+Git Commands：
 
 git log:查看最近commit的内容
 git log --stat:最近每次commit的状态
@@ -24,3 +22,17 @@ git add：将文件添加到暂存区
 git commit：将暂存区的文件提交到代码仓库
 git reset：将暂存区文件删除
 git commit -m "提交的注释"
+git checkout 恢复（检出）到某次提交的状态
+git checkout master 回到master分支上
+git diff：{
+	git diff：对比工作区和暂存区的差别
+	git diff --staged:对比暂存区和代码仓库（最新提交）之间的差别
+	git diff commit_old commit_new:对比两次commit之间的差别
+}
+git branch brancg_name:创建分支
+git checkout branch_name:检出到某个分支上
+git log --graph --oneline （master coins）两个分支名：直观地查看提交历史记录
+git checkout -b new_branch_name:相当于git branch new_branch_name,git checkout new_branch_name
+git merge branch_name：合并分支到master
+git branch -d branch_name:删除该分支
+git show commit_id：将提交与所在分支进行对比（比较当前commit与父commit的差异）

@@ -7,6 +7,7 @@ ls：列出此目录包含的文件
 dir “目录绝对路径”：列出该目录的结构
 diff：查看两个文件的不同 eg: diff -u a.txt b.txt #-u为了更容易阅读
 mv a b:移动文件从a到b
+touch:创建文件
 
 
 
@@ -37,3 +38,5 @@ git merge branch_name：合并分支到master
 git branch -d branch_name:删除该分支
 git show commit_id：将提交与所在分支进行对比（比较当前commit与父commit的差异）
 cat：查看当前文件内容
+git remote:查看当前仓库的远程分支
+git remote add name branch：为当前仓库添加远程分支
